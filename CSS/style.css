@@ -1,0 +1,43 @@
+body{
+     background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+     height: 100vh;
+    font-family: 'Kumbh Sans';
+}
+
+main{
+  display: flex;
+  flex-direction: row; 
+  border-radius: 30px;  
+  width: 60%;
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 60px;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-position: left;
+}
+
+#text{
+  /*margin-left: 65%;*/
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+}
+.answer{
+  display: none;
+}
+
+.question{
+   padding: 20px;
+}
+
+#title{
+  font-weight: 700;
+}
+
+#womanDesktop{
+  position: relative;
+  left: -25%;
+
+}
+
+
