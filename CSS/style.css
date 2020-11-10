@@ -16,14 +16,13 @@ body{
   padding: 60px;
   background-image: url("../images/bg-pattern-desktop.svg");
   background-position: left;
-  z-index: 1;
-  overflow: hidden;
+  z-index: -2;
+  
 }
 
 #text{
-  position: relative;
-  margin-left: 50%;
-  font-size: 12px;
+  margin-left: 40%;
+  font-size: 15px;
   font-weight: 400;
   text-align: justify;
 }
@@ -41,15 +40,16 @@ body{
 
 #womanDesktop{
   position: absolute;
-  top: 0;
-  left: -10%;
-  z-index: 2;
+  top: 10%;
+  left: -8%;
+  z-index: -1;
 }
 
 #box{
-  position: absolute;
-  top: 0;
-  z-index: 3;
+  position: relative;
+  top: 60%;
+  left: 60%;
+
 }
 
 
