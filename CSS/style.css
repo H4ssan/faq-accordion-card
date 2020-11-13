@@ -1,6 +1,6 @@
 body{
-     background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-     height: 100vh;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
     font-family: 'Kumbh Sans';
     
 }
@@ -9,6 +9,7 @@ body{
   position: relative;
   display: flex;
   flex-direction: row; 
+  align-items: flex-end;
   border-radius: 30px;  
   width: 60%;
   margin: 0 auto;
@@ -17,11 +18,10 @@ body{
   background-image: url("../images/bg-pattern-desktop.svg");
   background-position: left;
   z-index: -2;
-  
 }
 
 #text{
-  margin-left: 40%;
+  margin-left: 50%;
   font-size: 15px;
   font-weight: 400;
   text-align: justify;
@@ -32,11 +32,29 @@ body{
 
 .question{
    padding: 20px;
+   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+
+.question:hover{
+  cursor: pointer;
+  color: orange;
+  
+}
+
+.question::after{
+  content: url(../images/icon-arrow-down.svg);
+  padding-left: 2.5em;
+  float: right; 
+}
+
+
 
 #title{
   font-weight: 700;
+  margin-left: 6%;
+  
 }
+
 
 #womanDesktop{
   position: absolute;
@@ -45,11 +63,9 @@ body{
   z-index: -1;
 }
 
-#box{
-  position: relative;
-  top: 60%;
-  left: 60%;
-
+#boxDesktop{
+  margin-left: -145px;
+  margin-bottom: 15px;
 }
 
 
