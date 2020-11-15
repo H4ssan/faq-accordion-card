@@ -1,13 +1,17 @@
 const question = document.getElementsByClassName("question");
 
 
-function myFunction() {
-    const answer = document.getElementsByClassName("answer");
-    if (answer.style.display === "none") {
-      answer.style.display = "block";
+for(let i=0;i<question.length;i++){
+  question[i].addEventListener("click", function(){
+    this.classList.toggle("active");
+
+    const ans = this.nextElementSibling;
+    if (ans.style.display === "block") {
+      ans.style.display = "none";
     } else {
-      answer.style.display = "none";
+      ans.style.display = "block";
     }
-  }
+  });
+}
 
   
