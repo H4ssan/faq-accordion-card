@@ -44,8 +44,6 @@ body{
    cursor: pointer;
 }
 
-
-
 .question::after{
   content: url(../images/icon-arrow-down.svg);
   padding-left: 9em;
@@ -66,9 +64,9 @@ body{
 }
 
 #boxDesktop{
-  margin-left: -145px;
-  margin-bottom: 15px;
-  
+  position: absolute;
+  top: 40%;
+  left: -10.4%;
 }
 
 
