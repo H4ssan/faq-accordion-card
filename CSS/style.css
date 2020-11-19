@@ -10,29 +10,33 @@ body{
   flex-direction: row; 
   align-items: flex-end;
   border-radius: 30px;  
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   background-color: whitesmoke;
-  padding: 60px;
+  padding: 70px;
   background-image: url("../images/bg-pattern-desktop.svg");
   background-position: left;
   z-index: 0;
 }
 
 #text{
-  margin-left: 50%;
+  margin-left: 40%;
   font-size: 15px;
   font-weight: 400;
   text-align: justify;
+  border: 10px solid transparent;
 }
 .answer{
   display: none;
   padding: 20px;
+  width: 80%;
+  font-size: 12px;
 }
 
 .question{
   padding: 20px;
-   border-bottom: 1px solid hsl(240, 5%, 91%);
+  width: 100%;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
  .active, .question:hover{
@@ -40,15 +44,17 @@ body{
    cursor: pointer;
 }
 
+
+
 .question::after{
   content: url(../images/icon-arrow-down.svg);
-  padding-left: 2.5em;
+  padding-left: 9em;
   float: right; 
 }
 
 #title{
   font-weight: 700;
-  margin-left: 6%;
+  margin-left: 4%;
   
 }
 
