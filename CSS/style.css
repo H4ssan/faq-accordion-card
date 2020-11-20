@@ -20,7 +20,7 @@ body{
 }
 
 #text{
-  margin-left: 40%;
+  margin-left: 43%;
   font-size: 15px;
   font-weight: 400;
   text-align: justify;
@@ -28,19 +28,21 @@ body{
 }
 .answer{
   display: none;
+  color: hsl(240, 6%, 50%);
   padding: 20px;
   width: 80%;
   font-size: 12px;
 }
 
 .question{
+  color:hsl(237, 12%, 33%) ;
   padding: 20px;
   width: 100%;
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
- .active, .question:hover{
-    color: orange;
+.active, .question:hover{
+    color:hsl(14, 88%, 65%);
    cursor: pointer;
 }
 
@@ -51,9 +53,9 @@ body{
 }
 
 #title{
+  color: hsl(238, 29%, 16%);
   font-weight: 700;
   margin-left: 4%;
-  
 }
 
 #womanDesktop{
@@ -67,6 +69,7 @@ body{
   position: absolute;
   top: 40%;
   left: -10.4%;
+  
 }
 
 
